@@ -14,6 +14,7 @@ function clcikety(){
         mode.backgroundColor = "#4D3C77"
         var elem = document.createElement("h1")
         elem.textContent = "Welcome to the Naruto Family"
+        elem.style.textAlign = 'center'
         elem.style.color = "white"
         document.body.appendChild(elem)
     }
